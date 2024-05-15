@@ -1,0 +1,48 @@
+.header {
+      font-size: small;
+      line-height: 1em;
+      padding: 5px 0;
+      margin:auto;
+      background-color: var(--aa-brand-bg-color);
+      color:var(--aa-brand-text-color);
+      border-bottom: 1px solid #eee;
+      font-family: "Noto Sans", "Open Sans", sans-serif;
+  }
+
+  .header .nav-logo {
+      display: inline-block;
+      margin-left: 10px;
+  }
+
+  .header  nav .nav-logo img  {
+       max-height: 24px;
+       max-width: 100%;
+       width: auto !important;
+       min-height: 16px;
+       display: inline-block;
+  }
+
+  header .nav-brand > div > p{
+     font-size: small;
+  }
+
+  .header .nav-brand > div >:last-child  {
+      font-size: smaller;
+  }
+
+  header nav .nav-brand,
+  .nav-logo{
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 5px;
+  }
+
+  .header nav .nav-brand img {
+      margin-left: 10px;
+  }
+
+  .header nav .nav-brand > div > p {
+     margin-top: 0em;
+     margin-bottom: 0em;
+  }
+
